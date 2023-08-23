@@ -1,0 +1,263 @@
+ID	xref	prefLabel
+ID	A OboInOwl:hasDbXref	A skos:prefLabel
+https://purl.brain-bican.org/ontology/abao/ABA_ENTITY		ABA entity
+https://purl.brain-bican.org/ontology/pbao/PBA_10000		layer I of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10001		layer II of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10002		layer III of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10003		granular layer IV of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10004		layer V of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10005		layer VI of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10007		white matter of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10008		medial orbital frontal cortex (area 14)
+https://purl.brain-bican.org/ontology/pbao/PBA_10009		layer I of medial orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10010		layer II of medial orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10011		layer III of medial orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10012		granular layer IV of medial orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10013		layer V of medial orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10014		layer VI of medial orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10016		white matter of medial orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10017		caudal orbital frontal cortex (area 13)
+https://purl.brain-bican.org/ontology/pbao/PBA_10018		layer I of caudal orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10019		layer II of caudal orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10020		layer III of caudal orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10021		granular layer IV of caudal orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10022		layer V of caudal orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10023		layer VI of caudal orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10025		white matter of caudal orbitofrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_10026		primary visual cortex (V1, striate cortex, area 17)
+https://purl.brain-bican.org/ontology/pbao/PBA_10027		layer I of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_10028		layer II of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_10029		layer III of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_10030		granular layer IV of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_10031		layer IVA of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_10032		layer IVB of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_10033		layer IVCa of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_10034		layer IVCb of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_10035		layer V of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_10036		layer VI of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_10038		white matter of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_10039		parastriate cortex (V2, area 18)
+https://purl.brain-bican.org/ontology/pbao/PBA_10040		layer I of V2
+https://purl.brain-bican.org/ontology/pbao/PBA_10041		layer II of V2
+https://purl.brain-bican.org/ontology/pbao/PBA_10042		layer III of V2
+https://purl.brain-bican.org/ontology/pbao/PBA_10043		granular layer IV of V2
+https://purl.brain-bican.org/ontology/pbao/PBA_10048		layer V of V2
+https://purl.brain-bican.org/ontology/pbao/PBA_10049		layer VI of V2
+https://purl.brain-bican.org/ontology/pbao/PBA_10051		white matter of V2
+https://purl.brain-bican.org/ontology/pbao/PBA_10053		prosubiculum
+https://purl.brain-bican.org/ontology/pbao/PBA_10054		subiculum
+https://purl.brain-bican.org/ontology/pbao/PBA_10055		presubicular cortex (presubiculum)
+https://purl.brain-bican.org/ontology/pbao/PBA_10058		CA1 region
+https://purl.brain-bican.org/ontology/pbao/PBA_10059		stratum oriens of CA1
+https://purl.brain-bican.org/ontology/pbao/PBA_10060		stratum pyramidale of CA1
+https://purl.brain-bican.org/ontology/pbao/PBA_10061		stratum radiatum of CA1
+https://purl.brain-bican.org/ontology/pbao/PBA_10062		stratum lacunosum-moleculare of CA1
+https://purl.brain-bican.org/ontology/pbao/PBA_10063		CA2 region
+https://purl.brain-bican.org/ontology/pbao/PBA_10064		stratum oriens of CA2
+https://purl.brain-bican.org/ontology/pbao/PBA_10065		stratum pyramidale of CA2
+https://purl.brain-bican.org/ontology/pbao/PBA_10066		stratum radiatum of CA2
+https://purl.brain-bican.org/ontology/pbao/PBA_10067		stratum lacunosum-moleculare of CA2
+https://purl.brain-bican.org/ontology/pbao/PBA_10068		CA3 region
+https://purl.brain-bican.org/ontology/pbao/PBA_10069		stratum oriens of CA3
+https://purl.brain-bican.org/ontology/pbao/PBA_10070		stratum pyramidale of CA3
+https://purl.brain-bican.org/ontology/pbao/PBA_10071		hippocampal stratum lucidum of CA3
+https://purl.brain-bican.org/ontology/pbao/PBA_10072		stratum radiatum of CA3
+https://purl.brain-bican.org/ontology/pbao/PBA_10073		stratum lacunosum-moleculare of CA3
+https://purl.brain-bican.org/ontology/pbao/PBA_10074		CA4 region
+https://purl.brain-bican.org/ontology/pbao/PBA_10075		dentate gyrus (dentate cortex)
+https://purl.brain-bican.org/ontology/pbao/PBA_10076		molecular layer of dentate gyrus (cortex)
+https://purl.brain-bican.org/ontology/pbao/PBA_10077		granular layer of dentate gyrus (cortex)
+https://purl.brain-bican.org/ontology/pbao/PBA_10078		subgranular zone of dentate gyrus (cortex)
+https://purl.brain-bican.org/ontology/pbao/PBA_10079		polyform layer of dentate gyrus (cortex)
+https://purl.brain-bican.org/ontology/pbao/PBA_10080		striatum
+https://purl.brain-bican.org/ontology/pbao/PBA_10081		dorsal striatum
+https://purl.brain-bican.org/ontology/pbao/PBA_10082		caudate nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_10086		putamen
+https://purl.brain-bican.org/ontology/pbao/PBA_10091		ventral striatum
+https://purl.brain-bican.org/ontology/pbao/PBA_10092		nucleus accumbens
+https://purl.brain-bican.org/ontology/pbao/PBA_10093		core of nucleus accumbens
+https://purl.brain-bican.org/ontology/pbao/PBA_10094		shell of nucleus accumbens
+https://purl.brain-bican.org/ontology/pbao/PBA_10095		islands of Calleja
+https://purl.brain-bican.org/ontology/pbao/PBA_10096		olfactory tubercle
+https://purl.brain-bican.org/ontology/pbao/PBA_10097		globus pallidus
+https://purl.brain-bican.org/ontology/pbao/PBA_10098		internal segment of globus pallidus
+https://purl.brain-bican.org/ontology/pbao/PBA_10099		external segment of globus pallidus
+https://purl.brain-bican.org/ontology/pbao/PBA_10102		internal capsule
+https://purl.brain-bican.org/ontology/pbao/PBA_10103		anterior amygdaloid area
+https://purl.brain-bican.org/ontology/pbao/PBA_10106		basal nucleus (basolateral nucleus)
+https://purl.brain-bican.org/ontology/pbao/PBA_10107		intermediate division of basal nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_10108		dorsal (magnocellular) division of basal nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_10109		ventral (parvocellular) division of basal nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_10110		accessory basal nucleus (basomedial nucleus)
+https://purl.brain-bican.org/ontology/pbao/PBA_10111		dorsal (magnocellular) division of accessory basal nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_10112		ventral (parvocellular) division of accessory basal nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_10116		lateral nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_10117		dorsal division of lateral nucleus, lateral part
+https://purl.brain-bican.org/ontology/pbao/PBA_10118		dorsal division of lateral nucleus, medial part
+https://purl.brain-bican.org/ontology/pbao/PBA_10119		ventral division of lateral nucleus, lateral part
+https://purl.brain-bican.org/ontology/pbao/PBA_10120		ventral division of lateral nucleus, medial part
+https://purl.brain-bican.org/ontology/pbao/PBA_10121		central amygdaloid nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_10123		lateral division of central nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_10124		medial division of central nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_10125		medial nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_10128		paralaminar nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_10132		intercalated nucleus of amygdala
+https://purl.brain-bican.org/ontology/pbao/PBA_10134		rostral periamygdaloid cortex (rPAC)
+https://purl.brain-bican.org/ontology/pbao/PBA_10135		amygdalohippocampal area
+https://purl.brain-bican.org/ontology/pbao/PBA_10136		amygdalohippocampal area, magnocellualr part
+https://purl.brain-bican.org/ontology/pbao/PBA_10137		amygdalohippocampal area, parvocelluar part
+https://purl.brain-bican.org/ontology/pbao/PBA_10139		amygdaloid intramedullary gray
+https://purl.brain-bican.org/ontology/pbao/PBA_10140		amygdalopiriform transition area
+https://purl.brain-bican.org/ontology/pbao/PBA_10141		basal nucleus of Meynert
+https://purl.brain-bican.org/ontology/pbao/PBA_128011350		telencephalon
+https://purl.brain-bican.org/ontology/pbao/PBA_128011354		cerebral cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011368		subpial granular zone of dorsolateral prefrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011372		marginal zone of dorsolateral prefrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011378		cortical plate of dorsolateral prefrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011614		marginal zone of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011624		outer cortical plate of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011638		inner cortical plate (infragranular layer) of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011646		subplate zone of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011650		intermediate zone of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011654		subventricular zone of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011658		outer subventricular zone of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011662		inner subventricular zone of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011666		ventricular zone of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011670		outer ventricular zone of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011674		inner ventricular zone of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128011776		marginal zone of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011788		outer cortical plate of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011796		layer II of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011800		layer III of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011804		granular layer IV of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011808		inner cortical plate (infragranular layer) of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011812		layer V of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011816		layer VI of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011820		subplate zone of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011824		intermediate zone of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011828		subventricular zone of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011832		outer subventricular zone of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011836		inner subventricular zone of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011840		ventricular zone of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011844		outer ventricular zone of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011848		inner ventricular zone of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_128011876		lateral (anterior) entorhinal cortex (LEC)
+https://purl.brain-bican.org/ontology/pbao/PBA_128011900		layer II of LEC
+https://purl.brain-bican.org/ontology/pbao/PBA_128011936		medial (posterior) entorhinal cortex (MEC)
+https://purl.brain-bican.org/ontology/pbao/PBA_128011960		layer II of MEC
+https://purl.brain-bican.org/ontology/pbao/PBA_128012080		perirhinal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128012084		medial perirhinal cortex (area 35)
+https://purl.brain-bican.org/ontology/pbao/PBA_128012120		layer V of perirhinal cortex (area 35)
+https://purl.brain-bican.org/ontology/pbao/PBA_128012144		lateral perirhinal cortex (area 36)
+https://purl.brain-bican.org/ontology/pbao/PBA_128012220		marginal zone of dentate gyrus (cortex)
+https://purl.brain-bican.org/ontology/pbao/PBA_128012226		granular layer anlage of dentate gyrus (cortex)
+https://purl.brain-bican.org/ontology/pbao/PBA_128012232		subgranular layer anlage of dentate gyrus (cortex)
+https://purl.brain-bican.org/ontology/pbao/PBA_128012238		polyform layer anlage of dentate gyrus (cortex)
+https://purl.brain-bican.org/ontology/pbao/PBA_128012244		hippocampal proper
+https://purl.brain-bican.org/ontology/pbao/PBA_128012250		marginal zone of CA1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012258		hippocampal plate of CA1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012264		hippocampal subplate of CA1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012270		hippocampal intermediate zone of CA1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012274		hippocampal subventricular zone of CA1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012278		hippocampal ventricular zone of CA1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012284		marginal zone of CA2
+https://purl.brain-bican.org/ontology/pbao/PBA_128012292		hippocampal plate of CA2
+https://purl.brain-bican.org/ontology/pbao/PBA_128012298		hippocampal subplate of CA2
+https://purl.brain-bican.org/ontology/pbao/PBA_128012318		marginal zone of CA3
+https://purl.brain-bican.org/ontology/pbao/PBA_128012326		hippocampal plate of CA3
+https://purl.brain-bican.org/ontology/pbao/PBA_128012332		hippocampal subplate of CA3
+https://purl.brain-bican.org/ontology/pbao/PBA_128012354		subicular cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_128012368		hippocampal plate of subiculum
+https://purl.brain-bican.org/ontology/pbao/PBA_128012372		pyramidal layer of subiculum
+https://purl.brain-bican.org/ontology/pbao/PBA_128012400		rostral (anterior) presubiculum
+https://purl.brain-bican.org/ontology/pbao/PBA_128012404		caudal (posterior) presubiculum
+https://purl.brain-bican.org/ontology/pbao/PBA_128012418		subpial granular zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012422		marginal zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012428		cortical plate of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012432		outer cortical plate of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012436		supragranular layer of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012458		inner cortical plate (infragranular layer) of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012466		subplate zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012470		intermediate cell dense zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012474		intermediate zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012478		subventricular zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012482		outer subventricular zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012486		inner subventricular zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012490		ventricular zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012494		outer ventricular zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012498		inner ventricular zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_128012584		rostral migratory stream (RMS)
+https://purl.brain-bican.org/ontology/pbao/PBA_128012588		ventricular portion of RMS
+https://purl.brain-bican.org/ontology/pbao/PBA_128012596		cerebral nuclei
+https://purl.brain-bican.org/ontology/pbao/PBA_128012616		corticomedial amygdaloid nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_128012620		periamygdaloid cortex (cortical amygdaloid nucleus)
+https://purl.brain-bican.org/ontology/pbao/PBA_128012634		caudal periamygdaloid cortex (cPAC)
+https://purl.brain-bican.org/ontology/pbao/PBA_128012638		caudal periamygdaloid cortex, dorsal part
+https://purl.brain-bican.org/ontology/pbao/PBA_128012678		basolateral nuclear complex
+https://purl.brain-bican.org/ontology/pbao/PBA_128012818		ganglionic eminence (VZ in basal nuclei)
+https://purl.brain-bican.org/ontology/pbao/PBA_128012822		lateral ganglionic eminence
+https://purl.brain-bican.org/ontology/pbao/PBA_128012834		medial ganglionic eminence
+https://purl.brain-bican.org/ontology/pbao/PBA_128012846		caudal ganglionic eminence
+https://purl.brain-bican.org/ontology/pbao/PBA_128012920		shell of nucleus accumbens, medial part
+https://purl.brain-bican.org/ontology/pbao/PBA_128012926		main island of Calleja
+https://purl.brain-bican.org/ontology/pbao/PBA_128012960		claustrum
+https://purl.brain-bican.org/ontology/pbao/PBA_128012976		basal forebrain
+https://purl.brain-bican.org/ontology/pbao/PBA_128013010		diencephalon
+https://purl.brain-bican.org/ontology/pbao/PBA_128013014		thalamus
+https://purl.brain-bican.org/ontology/pbao/PBA_128013018		dorsal thalamus
+https://purl.brain-bican.org/ontology/pbao/PBA_128013070		lateral geniculate nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_128013074		dorsal lateral geniculate nucleus
+https://purl.brain-bican.org/ontology/pbao/PBA_128013078		dorsal lateral geniculate nucleus, magnocellular layers
+https://purl.brain-bican.org/ontology/pbao/PBA_128013091		dorsal lateral geniculate nucleus, parvocellular layers
+https://purl.brain-bican.org/ontology/pbao/PBA_128013113		dorsal lateral geniculate nucleus, koniocellular layers
+https://purl.brain-bican.org/ontology/pbao/PBA_128013147		epithalamus
+https://purl.brain-bican.org/ontology/pbao/PBA_12984		dorsolateral prefrontal cortex (areas 9 and 46)
+https://purl.brain-bican.org/ontology/pbao/PBA_12986		layer II of dorsolateral prefrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_12987		layer III of dorsolateral prefrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_12988		granular layer IV of dorsolateral prefrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_12989		layer V of dorsolateral prefrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_12990		layer VI of dorsolateral prefrontal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_159658800		outer fiber (plexiform) zone of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_159658804		inner fiber (plexiform) zone of rostral cingulate cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_159658808		outer fiber (plexiform) zone of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_159658816		inner fiber (plexiform) zone of S1
+https://purl.brain-bican.org/ontology/pbao/PBA_159658820		dentate migratory stream
+https://purl.brain-bican.org/ontology/pbao/PBA_159658824		cortical hem
+https://purl.brain-bican.org/ontology/pbao/PBA_159658836		outer fiber (plexiform) zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_159658840		transitory migratory zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_159658844		inner fiber (plexiform) zone of V1
+https://purl.brain-bican.org/ontology/pbao/PBA_159658852		lateral ganglionic eminence-cortex border
+https://purl.brain-bican.org/ontology/pbao/PBA_294021746		neocortex
+https://purl.brain-bican.org/ontology/pbao/PBA_294021766		subpial granular zone
+https://purl.brain-bican.org/ontology/pbao/PBA_294021774		marginal zone
+https://purl.brain-bican.org/ontology/pbao/PBA_294021786		layer I
+https://purl.brain-bican.org/ontology/pbao/PBA_294021800		layer II
+https://purl.brain-bican.org/ontology/pbao/PBA_294021818		layer II/III
+https://purl.brain-bican.org/ontology/pbao/PBA_294021824		layer III
+https://purl.brain-bican.org/ontology/pbao/PBA_294021842		cortical plate (outer)
+https://purl.brain-bican.org/ontology/pbao/PBA_294021852		layer IV
+https://purl.brain-bican.org/ontology/pbao/PBA_294021878		layer V
+https://purl.brain-bican.org/ontology/pbao/PBA_294021896		layer VI
+https://purl.brain-bican.org/ontology/pbao/PBA_294021914		cortical plate
+https://purl.brain-bican.org/ontology/pbao/PBA_294021920		cortical plate (inner)
+https://purl.brain-bican.org/ontology/pbao/PBA_294021932		subplate
+https://purl.brain-bican.org/ontology/pbao/PBA_294021942		intermediate zone
+https://purl.brain-bican.org/ontology/pbao/PBA_294021954		transitory migratory zone
+https://purl.brain-bican.org/ontology/pbao/PBA_294021960		outer fiber zone
+https://purl.brain-bican.org/ontology/pbao/PBA_294021970		subventricular zone
+https://purl.brain-bican.org/ontology/pbao/PBA_294021980		subventricular zone (outer)
+https://purl.brain-bican.org/ontology/pbao/PBA_294021990		inner fiber zone
+https://purl.brain-bican.org/ontology/pbao/PBA_294022000		subventricular zone (inner)
+https://purl.brain-bican.org/ontology/pbao/PBA_294022010		ventricular zone (outer)
+https://purl.brain-bican.org/ontology/pbao/PBA_294022020		ventricular zone (inner)
+https://purl.brain-bican.org/ontology/pbao/PBA_294022030		ventricular zone
+https://purl.brain-bican.org/ontology/pbao/PBA_294022044		white matter
+https://purl.brain-bican.org/ontology/pbao/PBA_294022158		entorhinal cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_3999		brain
+https://purl.brain-bican.org/ontology/pbao/PBA_4000		medial frontal cortex (areas 24, 25 and 32)
+https://purl.brain-bican.org/ontology/pbao/PBA_4001		basal nuclei (basal ganglia)
+https://purl.brain-bican.org/ontology/pbao/PBA_4002		amygdaloid complex
+https://purl.brain-bican.org/ontology/pbao/PBA_4003		hippocampal cortex (hippocampal formation)
+https://purl.brain-bican.org/ontology/pbao/PBA_4004		occipital cortex
+https://purl.brain-bican.org/ontology/pbao/PBA_9999		rostral cingulate cortex (areas 24 and 32)
+https://purl.brain-bican.org/ontology/pbao/PBA_ENTITY		PBA entity
