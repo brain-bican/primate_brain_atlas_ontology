@@ -2,9 +2,9 @@
 ![Build Status](https://github.com/hkir-dev/primate_brain_atlas_ontology/workflows/CI/badge.svg)
 # Primate Brain Atlas Ontology
 
-Description: None
+This repository contains an application ontology built by combining ontologised versions of the Allen Institute Primate Brain Atlas (PBA) StructureGraph mapped to Uberon. 
 
-More information can be found at http://obofoundry.org/ontology/pbao
+More information can be found at https://hkir-dev.github.io/primate_brain_atlas_ontology/
 
 ## Versions
 

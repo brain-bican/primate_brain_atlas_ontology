@@ -11,13 +11,14 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<https://purl.brain-bican.org/ontology/pbao.owl>
 
-Import(<https://purl.brain-bican.org/ontology/pbao/imports/uberon_import.owl>)
+# Import(<https://purl.brain-bican.org/ontology/pbao/imports/uberon_import.owl>)
+# Import(<https://purl.brain-bican.org/ontology/pbao/imports/ncbitaxon_import.owl>)
 
-Import(<https://purl.brain-bican.org/ontology/pbao/imports/ncbitaxon_import.owl>)
+Import(<https://purl.brain-bican.org/ontology/pbao/imports/merged_import.owl>)
+Import(<https://purl.brain-bican.org/ontology/pbao/components/all_templates.owl>)
 
 
 Import(<https://purl.brain-bican.org/ontology/pbao/patterns/definitions.owl>)
-Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Primate Brain Atlas Ontology")
 
@@ -38,11 +39,6 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 ############################
 #   Classes
 ############################
-
-# Class: <https://purl.brain-bican.org/ontology/PBAO_0000000> (root node)
-
-AnnotationAssertion(rdfs:label <https://purl.brain-bican.org/ontology/PBAO_0000000> "root node"@en)
-
 
 )
 
