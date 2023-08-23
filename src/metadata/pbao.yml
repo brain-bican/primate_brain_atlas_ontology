@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/pbao
+
+idspace: PBAO
+base_url: /obo/pbao
+
+products:
+- pbao.owl: https://raw.githubusercontent.com/hkir-dev/primate_brain_atlas_ontology/main/pbao.owl
+- pbao.obo: https://raw.githubusercontent.com/hkir-dev/primate_brain_atlas_ontology/main/pbao.obo
+
+term_browser: ontobee
+example_terms:
+- PBAO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/hkir-dev/primate_brain_atlas_ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/hkir-dev/primate_brain_atlas_ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/PBAO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/hkir-dev/primate_brain_atlas_ontology/main/
+
