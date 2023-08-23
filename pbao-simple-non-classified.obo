@@ -1,12 +1,2088 @@
 format-version: 1.2
 data-version: https://purl.brain-bican.org/ontology/pbao/releases/2023-08-23/pbao-simple-non-classified.owl
 ontology: https://purl.brain-bican.org/ontology/pbao/pbao-simple-non-classified.owl
-property_value: http://purl.org/dc/terms/description "None" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
 property_value: http://purl.org/dc/terms/title "Primate Brain Atlas Ontology" xsd:string
 property_value: owl:versionInfo "2023-08-23" xsd:string
 
 [Term]
-id: PBAO:0000000
-name: root node
+id: ABA:Brain
+relationship: part_of NCBITaxon:10090
+property_value: IAO:0000589 "brain (ABA)" xsd:string
+
+[Term]
+id: ABA:CTX1
+relationship: part_of NCBITaxon:10090
+property_value: IAO:0000589 "cortical layer I (ABA)" xsd:string
+
+[Term]
+id: ABA:CTX1-6b
+relationship: part_of NCBITaxon:10090
+property_value: IAO:0000589 "layer of neocortex (ABA)" xsd:string
+
+[Term]
+id: ABA:CTX2
+relationship: part_of NCBITaxon:10090
+property_value: IAO:0000589 "cortical layer II (ABA)" xsd:string
+
+[Term]
+id: ABA:CTX3
+relationship: part_of NCBITaxon:10090
+property_value: IAO:0000589 "cortical layer III (ABA)" xsd:string
+
+[Term]
+id: ABA:CTX4
+relationship: part_of NCBITaxon:10090
+property_value: IAO:0000589 "cortical layer IV (ABA)" xsd:string
+
+[Term]
+id: ABA:CTX5
+relationship: part_of NCBITaxon:10090
+property_value: IAO:0000589 "cortical layer V (ABA)" xsd:string
+
+[Term]
+id: ABA:CTX6
+relationship: part_of NCBITaxon:10090
+property_value: IAO:0000589 "cortical layer VI (ABA)" xsd:string
+
+[Term]
+id: ABA:ENTITY
+name: ABA entity
+relationship: only_in_taxon NCBITaxon:10090
+relationship: part_of NCBITaxon:10090
+property_value: prefLabel "ABA entity" xsd:string
+
+[Term]
+id: ABA:SNI
+relationship: part_of NCBITaxon:10090
+property_value: IAO:0000589 "substantia nigra pars lateralis (ABA)" xsd:string
+
+[Term]
+id: PBA:10000
+name: layer I of rostral cingulate cortex
+synonym: "rCG1" EXACT []
+relationship: part_of PBA:294021786 ! layer I
+property_value: prefLabel "layer I of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:10001
+name: layer II of rostral cingulate cortex
+synonym: "rCG2" EXACT []
+relationship: part_of PBA:294021800 ! layer II
+property_value: prefLabel "layer II of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:10002
+name: layer III of rostral cingulate cortex
+synonym: "rCG3" EXACT []
+relationship: part_of PBA:294021824 ! layer III
+property_value: prefLabel "layer III of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:10003
+name: granular layer IV of rostral cingulate cortex
+synonym: "rCG4" EXACT []
+relationship: part_of PBA:294021852 ! layer IV
+property_value: prefLabel "granular layer IV of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:10004
+name: layer V of rostral cingulate cortex
+synonym: "rCG5" EXACT []
+relationship: part_of PBA:294021878 ! layer V
+property_value: prefLabel "layer V of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:10005
+name: layer VI of rostral cingulate cortex
+synonym: "rCG6" EXACT []
+relationship: part_of PBA:294021896 ! layer VI
+property_value: prefLabel "layer VI of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:10007
+name: white matter of rostral cingulate cortex
+synonym: "rCGwm" EXACT []
+relationship: part_of PBA:294022044 ! white matter
+property_value: prefLabel "white matter of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:10008
+name: medial orbital frontal cortex (area 14)
+synonym: "mOF" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "medial orbital frontal cortex (area 14)" xsd:string
+
+[Term]
+id: PBA:10009
+name: layer I of medial orbitofrontal cortex
+synonym: "mOF1" EXACT []
+relationship: part_of PBA:294021786 ! layer I
+property_value: prefLabel "layer I of medial orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10010
+name: layer II of medial orbitofrontal cortex
+synonym: "mOF2" EXACT []
+relationship: part_of PBA:294021800 ! layer II
+property_value: prefLabel "layer II of medial orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10011
+name: layer III of medial orbitofrontal cortex
+synonym: "mOF3" EXACT []
+relationship: part_of PBA:294021824 ! layer III
+property_value: prefLabel "layer III of medial orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10012
+name: granular layer IV of medial orbitofrontal cortex
+synonym: "mOF4" EXACT []
+relationship: part_of PBA:294021852 ! layer IV
+property_value: prefLabel "granular layer IV of medial orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10013
+name: layer V of medial orbitofrontal cortex
+synonym: "mOF5" EXACT []
+relationship: part_of PBA:294021878 ! layer V
+property_value: prefLabel "layer V of medial orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10014
+name: layer VI of medial orbitofrontal cortex
+synonym: "mOF6" EXACT []
+relationship: part_of PBA:294021896 ! layer VI
+property_value: prefLabel "layer VI of medial orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10016
+name: white matter of medial orbitofrontal cortex
+synonym: "mOFwm" EXACT []
+relationship: part_of PBA:294022044 ! white matter
+property_value: prefLabel "white matter of medial orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10017
+name: caudal orbital frontal cortex (area 13)
+synonym: "cOF" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "caudal orbital frontal cortex (area 13)" xsd:string
+
+[Term]
+id: PBA:10018
+name: layer I of caudal orbitofrontal cortex
+synonym: "cOF1" EXACT []
+relationship: part_of PBA:294021786 ! layer I
+property_value: prefLabel "layer I of caudal orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10019
+name: layer II of caudal orbitofrontal cortex
+synonym: "cOF2" EXACT []
+relationship: part_of PBA:294021800 ! layer II
+property_value: prefLabel "layer II of caudal orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10020
+name: layer III of caudal orbitofrontal cortex
+synonym: "cOF3" EXACT []
+relationship: part_of PBA:294021824 ! layer III
+property_value: prefLabel "layer III of caudal orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10021
+name: granular layer IV of caudal orbitofrontal cortex
+synonym: "cOF4" EXACT []
+relationship: part_of PBA:294021852 ! layer IV
+property_value: prefLabel "granular layer IV of caudal orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10022
+name: layer V of caudal orbitofrontal cortex
+synonym: "cOF5" EXACT []
+relationship: part_of PBA:294021878 ! layer V
+property_value: prefLabel "layer V of caudal orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10023
+name: layer VI of caudal orbitofrontal cortex
+synonym: "cOF6" EXACT []
+relationship: part_of PBA:294021896 ! layer VI
+property_value: prefLabel "layer VI of caudal orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10025
+name: white matter of caudal orbitofrontal cortex
+synonym: "cOFwm" EXACT []
+relationship: part_of PBA:294022044 ! white matter
+property_value: prefLabel "white matter of caudal orbitofrontal cortex" xsd:string
+
+[Term]
+id: PBA:10026
+name: primary visual cortex (V1, striate cortex, area 17)
+synonym: "V1" EXACT []
+relationship: part_of PBA:4004 ! occipital cortex
+property_value: IAO:0000589 "Brodmann (1909) area 17 (PBA)" xsd:string
+property_value: prefLabel "primary visual cortex (V1, striate cortex, area 17)" xsd:string
+
+[Term]
+id: PBA:10027
+name: layer I of V1
+synonym: "V1-1" EXACT []
+relationship: part_of PBA:294021786 ! layer I
+property_value: prefLabel "layer I of V1" xsd:string
+
+[Term]
+id: PBA:10028
+name: layer II of V1
+synonym: "V1-2" EXACT []
+relationship: part_of PBA:294021800 ! layer II
+property_value: prefLabel "layer II of V1" xsd:string
+
+[Term]
+id: PBA:10029
+name: layer III of V1
+synonym: "V1-3" EXACT []
+relationship: part_of PBA:294021824 ! layer III
+property_value: prefLabel "layer III of V1" xsd:string
+
+[Term]
+id: PBA:10030
+name: granular layer IV of V1
+synonym: "V1-4" EXACT []
+relationship: part_of PBA:294021852 ! layer IV
+property_value: prefLabel "granular layer IV of V1" xsd:string
+
+[Term]
+id: PBA:10031
+name: layer IVA of V1
+synonym: "V1-4A" EXACT []
+relationship: part_of PBA:10030 ! granular layer IV of V1
+property_value: prefLabel "layer IVA of V1" xsd:string
+
+[Term]
+id: PBA:10032
+name: layer IVB of V1
+synonym: "V1-4B" EXACT []
+relationship: part_of PBA:10030 ! granular layer IV of V1
+property_value: prefLabel "layer IVB of V1" xsd:string
+
+[Term]
+id: PBA:10033
+name: layer IVCa of V1
+synonym: "V14Ca" EXACT []
+relationship: part_of PBA:10030 ! granular layer IV of V1
+property_value: prefLabel "layer IVCa of V1" xsd:string
+
+[Term]
+id: PBA:10034
+name: layer IVCb of V1
+synonym: "V14Cb" EXACT []
+relationship: part_of PBA:10030 ! granular layer IV of V1
+property_value: prefLabel "layer IVCb of V1" xsd:string
+
+[Term]
+id: PBA:10035
+name: layer V of V1
+synonym: "V1-5" EXACT []
+relationship: part_of PBA:294021878 ! layer V
+property_value: prefLabel "layer V of V1" xsd:string
+
+[Term]
+id: PBA:10036
+name: layer VI of V1
+synonym: "V1-6" EXACT []
+relationship: part_of PBA:294021896 ! layer VI
+property_value: prefLabel "layer VI of V1" xsd:string
+
+[Term]
+id: PBA:10038
+name: white matter of V1
+synonym: "V1wm" EXACT []
+relationship: part_of PBA:294022044 ! white matter
+property_value: prefLabel "white matter of V1" xsd:string
+
+[Term]
+id: PBA:10039
+name: parastriate cortex (V2, area 18)
+synonym: "V2" EXACT []
+relationship: part_of PBA:4004 ! occipital cortex
+property_value: IAO:0000589 "Brodmann (1909) area 18 (PBA)" xsd:string
+property_value: prefLabel "parastriate cortex (V2, area 18)" xsd:string
+
+[Term]
+id: PBA:10040
+name: layer I of V2
+synonym: "V2-1" EXACT []
+relationship: part_of PBA:294021786 ! layer I
+property_value: prefLabel "layer I of V2" xsd:string
+
+[Term]
+id: PBA:10041
+name: layer II of V2
+synonym: "V2-2" EXACT []
+relationship: part_of PBA:294021800 ! layer II
+property_value: prefLabel "layer II of V2" xsd:string
+
+[Term]
+id: PBA:10042
+name: layer III of V2
+synonym: "V2-3" EXACT []
+relationship: part_of PBA:294021824 ! layer III
+property_value: prefLabel "layer III of V2" xsd:string
+
+[Term]
+id: PBA:10043
+name: granular layer IV of V2
+synonym: "V2-4" EXACT []
+relationship: part_of PBA:294021852 ! layer IV
+property_value: prefLabel "granular layer IV of V2" xsd:string
+
+[Term]
+id: PBA:10048
+name: layer V of V2
+synonym: "V2_L5" EXACT []
+relationship: part_of PBA:294021878 ! layer V
+property_value: prefLabel "layer V of V2" xsd:string
+
+[Term]
+id: PBA:10049
+name: layer VI of V2
+synonym: "V2-6" EXACT []
+relationship: part_of PBA:294021896 ! layer VI
+property_value: prefLabel "layer VI of V2" xsd:string
+
+[Term]
+id: PBA:10051
+name: white matter of V2
+synonym: "V2wm" EXACT []
+relationship: part_of PBA:294022044 ! white matter
+property_value: prefLabel "white matter of V2" xsd:string
+
+[Term]
+id: PBA:10053
+name: prosubiculum
+synonym: "ProS" EXACT []
+relationship: part_of PBA:128012354 ! subicular cortex
+property_value: prefLabel "prosubiculum" xsd:string
+
+[Term]
+id: PBA:10054
+name: subiculum
+synonym: "S" EXACT []
+relationship: part_of PBA:128012354 ! subicular cortex
+property_value: IAO:0000589 "subiculum (PBA)" xsd:string
+property_value: prefLabel "subiculum" xsd:string
+
+[Term]
+id: PBA:10055
+name: presubicular cortex (presubiculum)
+synonym: "PrS" EXACT []
+relationship: part_of PBA:4003 ! hippocampal cortex (hippocampal formation)
+property_value: prefLabel "presubicular cortex (presubiculum)" xsd:string
+
+[Term]
+id: PBA:10058
+name: CA1 region
+synonym: "CA1" EXACT []
+relationship: part_of PBA:128012244 ! hippocampal proper
+property_value: IAO:0000589 "CA1 field of hippocampus (PBA)" xsd:string
+property_value: prefLabel "CA1 region" xsd:string
+
+[Term]
+id: PBA:10059
+name: stratum oriens of CA1
+synonym: "CA1or" EXACT []
+relationship: part_of PBA:128012264 ! hippocampal subplate of CA1
+property_value: IAO:0000589 "CA1 stratum oriens (PBA)" xsd:string
+property_value: prefLabel "stratum oriens of CA1" xsd:string
+
+[Term]
+id: PBA:10060
+name: stratum pyramidale of CA1
+synonym: "CA1py" EXACT []
+relationship: part_of PBA:128012258 ! hippocampal plate of CA1
+property_value: IAO:0000589 "pyramidal layer of CA1 (PBA)" xsd:string
+property_value: prefLabel "stratum pyramidale of CA1" xsd:string
+
+[Term]
+id: PBA:10061
+name: stratum radiatum of CA1
+synonym: "CA1ra" EXACT []
+relationship: part_of PBA:128012250 ! marginal zone of CA1
+property_value: IAO:0000589 "CA1 stratum radiatum (PBA)" xsd:string
+property_value: prefLabel "stratum radiatum of CA1" xsd:string
+
+[Term]
+id: PBA:10062
+name: stratum lacunosum-moleculare of CA1
+synonym: "CA1lm" EXACT []
+relationship: part_of PBA:128012250 ! marginal zone of CA1
+property_value: IAO:0000589 "CA1 stratum lacunosum moleculare (PBA)" xsd:string
+property_value: prefLabel "stratum lacunosum-moleculare of CA1" xsd:string
+
+[Term]
+id: PBA:10063
+name: CA2 region
+synonym: "CA2" EXACT []
+relationship: part_of PBA:128012244 ! hippocampal proper
+property_value: IAO:0000589 "CA2 field of hippocampus (PBA)" xsd:string
+property_value: prefLabel "CA2 region" xsd:string
+
+[Term]
+id: PBA:10064
+name: stratum oriens of CA2
+synonym: "CA2or" EXACT []
+relationship: part_of PBA:128012298 ! hippocampal subplate of CA2
+property_value: IAO:0000589 "CA2 stratum oriens (PBA)" xsd:string
+property_value: prefLabel "stratum oriens of CA2" xsd:string
+
+[Term]
+id: PBA:10065
+name: stratum pyramidale of CA2
+synonym: "CA2py" EXACT []
+relationship: part_of PBA:128012292 ! hippocampal plate of CA2
+property_value: IAO:0000589 "pyramidal layer of CA2 (PBA)" xsd:string
+property_value: prefLabel "stratum pyramidale of CA2" xsd:string
+
+[Term]
+id: PBA:10066
+name: stratum radiatum of CA2
+synonym: "CA2ra" EXACT []
+relationship: part_of PBA:128012284 ! marginal zone of CA2
+property_value: IAO:0000589 "CA2 stratum radiatum (PBA)" xsd:string
+property_value: prefLabel "stratum radiatum of CA2" xsd:string
+
+[Term]
+id: PBA:10067
+name: stratum lacunosum-moleculare of CA2
+synonym: "CA2lm" EXACT []
+relationship: part_of PBA:128012284 ! marginal zone of CA2
+property_value: IAO:0000589 "CA2 stratum lacunosum moleculare (PBA)" xsd:string
+property_value: prefLabel "stratum lacunosum-moleculare of CA2" xsd:string
+
+[Term]
+id: PBA:10068
+name: CA3 region
+synonym: "CA3" EXACT []
+relationship: part_of PBA:128012244 ! hippocampal proper
+property_value: IAO:0000589 "CA3 field of hippocampus (PBA)" xsd:string
+property_value: prefLabel "CA3 region" xsd:string
+
+[Term]
+id: PBA:10069
+name: stratum oriens of CA3
+synonym: "CA3or" EXACT []
+relationship: part_of PBA:128012332 ! hippocampal subplate of CA3
+property_value: IAO:0000589 "CA3 stratum oriens (PBA)" xsd:string
+property_value: prefLabel "stratum oriens of CA3" xsd:string
+
+[Term]
+id: PBA:10070
+name: stratum pyramidale of CA3
+synonym: "CA3py" EXACT []
+relationship: part_of PBA:128012326 ! hippocampal plate of CA3
+property_value: IAO:0000589 "pyramidal layer of CA3 (PBA)" xsd:string
+property_value: prefLabel "stratum pyramidale of CA3" xsd:string
+
+[Term]
+id: PBA:10071
+name: hippocampal stratum lucidum of CA3
+synonym: "CA3sl" EXACT []
+relationship: part_of PBA:10068 ! CA3 region
+property_value: IAO:0000589 "CA3 stratum lucidum (PBA)" xsd:string
+property_value: prefLabel "hippocampal stratum lucidum of CA3" xsd:string
+
+[Term]
+id: PBA:10072
+name: stratum radiatum of CA3
+synonym: "CA3ra" EXACT []
+relationship: part_of PBA:128012318 ! marginal zone of CA3
+property_value: IAO:0000589 "CA3 stratum radiatum (PBA)" xsd:string
+property_value: prefLabel "stratum radiatum of CA3" xsd:string
+
+[Term]
+id: PBA:10073
+name: stratum lacunosum-moleculare of CA3
+synonym: "CA3lm" EXACT []
+relationship: part_of PBA:128012318 ! marginal zone of CA3
+property_value: IAO:0000589 "CA3 stratum lacunosum moleculare (PBA)" xsd:string
+property_value: prefLabel "stratum lacunosum-moleculare of CA3" xsd:string
+
+[Term]
+id: PBA:10074
+name: CA4 region
+synonym: "CA4" EXACT []
+relationship: part_of PBA:128012244 ! hippocampal proper
+property_value: IAO:0000589 "CA4 field of hippocampus (PBA)" xsd:string
+property_value: prefLabel "CA4 region" xsd:string
+
+[Term]
+id: PBA:10075
+name: dentate gyrus (dentate cortex)
+synonym: "DG" EXACT []
+relationship: part_of PBA:4003 ! hippocampal cortex (hippocampal formation)
+property_value: prefLabel "dentate gyrus (dentate cortex)" xsd:string
+
+[Term]
+id: PBA:10076
+name: molecular layer of dentate gyrus (cortex)
+synonym: "DGmo" EXACT []
+relationship: part_of PBA:128012220 ! marginal zone of dentate gyrus (cortex)
+property_value: prefLabel "molecular layer of dentate gyrus (cortex)" xsd:string
+
+[Term]
+id: PBA:10077
+name: granular layer of dentate gyrus (cortex)
+synonym: "DGgr" EXACT []
+relationship: part_of PBA:128012226 ! granular layer anlage of dentate gyrus (cortex)
+property_value: prefLabel "granular layer of dentate gyrus (cortex)" xsd:string
+
+[Term]
+id: PBA:10078
+name: subgranular zone of dentate gyrus (cortex)
+synonym: "DGsg" EXACT []
+relationship: part_of PBA:128012232 ! subgranular layer anlage of dentate gyrus (cortex)
+property_value: prefLabel "subgranular zone of dentate gyrus (cortex)" xsd:string
+
+[Term]
+id: PBA:10079
+name: polyform layer of dentate gyrus (cortex)
+synonym: "DGpf" EXACT []
+relationship: part_of PBA:128012238 ! polyform layer anlage of dentate gyrus (cortex)
+property_value: prefLabel "polyform layer of dentate gyrus (cortex)" xsd:string
+
+[Term]
+id: PBA:10080
+name: striatum
+synonym: "STR" EXACT []
+relationship: part_of PBA:4001 ! basal nuclei (basal ganglia)
+property_value: IAO:0000589 "striatum (PBA)" xsd:string
+property_value: prefLabel "striatum" xsd:string
+
+[Term]
+id: PBA:10081
+name: dorsal striatum
+synonym: "dSTR" EXACT []
+relationship: part_of PBA:10080 ! striatum
+property_value: IAO:0000589 "dorsal striatum (PBA)" xsd:string
+property_value: prefLabel "dorsal striatum" xsd:string
+
+[Term]
+id: PBA:10082
+name: caudate nucleus
+synonym: "Ca" EXACT []
+relationship: part_of PBA:10081 ! dorsal striatum
+property_value: IAO:0000589 "caudate nucleus (PBA)" xsd:string
+property_value: prefLabel "caudate nucleus" xsd:string
+
+[Term]
+id: PBA:10086
+name: putamen
+synonym: "Pu" EXACT []
+relationship: part_of PBA:10081 ! dorsal striatum
+property_value: IAO:0000589 "putamen (PBA)" xsd:string
+property_value: prefLabel "putamen" xsd:string
+
+[Term]
+id: PBA:10091
+name: ventral striatum
+synonym: "vSTR" EXACT []
+relationship: part_of PBA:10080 ! striatum
+property_value: IAO:0000589 "ventral striatum (PBA)" xsd:string
+property_value: prefLabel "ventral striatum" xsd:string
+
+[Term]
+id: PBA:10092
+name: nucleus accumbens
+synonym: "NAC" EXACT []
+relationship: part_of PBA:10091 ! ventral striatum
+property_value: IAO:0000589 "nucleus accumbens (PBA)" xsd:string
+property_value: prefLabel "nucleus accumbens" xsd:string
+
+[Term]
+id: PBA:10093
+name: core of nucleus accumbens
+synonym: "NACc" EXACT []
+relationship: part_of PBA:10092 ! nucleus accumbens
+property_value: IAO:0000589 "core of nucleus accumbens (PBA)" xsd:string
+property_value: prefLabel "core of nucleus accumbens" xsd:string
+
+[Term]
+id: PBA:10094
+name: shell of nucleus accumbens
+synonym: "NACs" EXACT []
+relationship: part_of PBA:10092 ! nucleus accumbens
+property_value: IAO:0000589 "shell of nucleus accumbens (PBA)" xsd:string
+property_value: prefLabel "shell of nucleus accumbens" xsd:string
+
+[Term]
+id: PBA:10095
+name: islands of Calleja
+synonym: "IsCj" EXACT []
+relationship: part_of PBA:10091 ! ventral striatum
+property_value: IAO:0000589 "island of Calleja (PBA)" xsd:string
+property_value: prefLabel "islands of Calleja" xsd:string
+
+[Term]
+id: PBA:10096
+name: olfactory tubercle
+synonym: "Tu" EXACT []
+relationship: part_of PBA:10091 ! ventral striatum
+property_value: IAO:0000589 "olfactory tubercle (PBA)" xsd:string
+property_value: prefLabel "olfactory tubercle" xsd:string
+
+[Term]
+id: PBA:10097
+name: globus pallidus
+synonym: "GP" EXACT []
+relationship: part_of PBA:4001 ! basal nuclei (basal ganglia)
+property_value: IAO:0000589 "globus pallidus (PBA)" xsd:string
+property_value: prefLabel "globus pallidus" xsd:string
+
+[Term]
+id: PBA:10098
+name: internal segment of globus pallidus
+synonym: "GPi" EXACT []
+relationship: part_of PBA:10097 ! globus pallidus
+property_value: IAO:0000589 "medial globus pallidus (PBA)" xsd:string
+property_value: prefLabel "internal segment of globus pallidus" xsd:string
+
+[Term]
+id: PBA:10099
+name: external segment of globus pallidus
+synonym: "GPe" EXACT []
+relationship: part_of PBA:10097 ! globus pallidus
+property_value: IAO:0000589 "lateral globus pallidus (PBA)" xsd:string
+property_value: prefLabel "external segment of globus pallidus" xsd:string
+
+[Term]
+id: PBA:10102
+name: internal capsule
+synonym: "ic" EXACT []
+relationship: part_of PBA:4001 ! basal nuclei (basal ganglia)
+property_value: IAO:0000589 "internal capsule of telencephalon (PBA)" xsd:string
+property_value: prefLabel "internal capsule" xsd:string
+
+[Term]
+id: PBA:10103
+name: anterior amygdaloid area
+synonym: "AA" EXACT []
+relationship: part_of PBA:4002 ! amygdaloid complex
+property_value: IAO:0000589 "anterior amygdaloid area (PBA)" xsd:string
+property_value: prefLabel "anterior amygdaloid area" xsd:string
+
+[Term]
+id: PBA:10106
+name: basal nucleus (basolateral nucleus)
+synonym: "B" EXACT []
+relationship: part_of PBA:128012678 ! basolateral nuclear complex
+property_value: prefLabel "basal nucleus (basolateral nucleus)" xsd:string
+
+[Term]
+id: PBA:10107
+name: intermediate division of basal nucleus
+synonym: "Bi" EXACT []
+relationship: part_of PBA:10106 ! basal nucleus (basolateral nucleus)
+property_value: prefLabel "intermediate division of basal nucleus" xsd:string
+
+[Term]
+id: PBA:10108
+name: dorsal (magnocellular) division of basal nucleus
+synonym: "Bd" EXACT []
+relationship: part_of PBA:10106 ! basal nucleus (basolateral nucleus)
+property_value: prefLabel "dorsal (magnocellular) division of basal nucleus" xsd:string
+
+[Term]
+id: PBA:10109
+name: ventral (parvocellular) division of basal nucleus
+synonym: "Bv" EXACT []
+relationship: part_of PBA:10106 ! basal nucleus (basolateral nucleus)
+property_value: prefLabel "ventral (parvocellular) division of basal nucleus" xsd:string
+
+[Term]
+id: PBA:10110
+name: accessory basal nucleus (basomedial nucleus)
+synonym: "AB" EXACT []
+relationship: part_of PBA:128012678 ! basolateral nuclear complex
+property_value: prefLabel "accessory basal nucleus (basomedial nucleus)" xsd:string
+
+[Term]
+id: PBA:10111
+name: dorsal (magnocellular) division of accessory basal nucleus
+synonym: "ABd" EXACT []
+relationship: part_of PBA:10110 ! accessory basal nucleus (basomedial nucleus)
+property_value: prefLabel "dorsal (magnocellular) division of accessory basal nucleus" xsd:string
+
+[Term]
+id: PBA:10112
+name: ventral (parvocellular) division of accessory basal nucleus
+synonym: "ABv" EXACT []
+relationship: part_of PBA:10110 ! accessory basal nucleus (basomedial nucleus)
+property_value: prefLabel "ventral (parvocellular) division of accessory basal nucleus" xsd:string
+
+[Term]
+id: PBA:10116
+name: lateral nucleus
+synonym: "L" EXACT []
+relationship: part_of PBA:128012678 ! basolateral nuclear complex
+property_value: IAO:0000589 "lateral amygdaloid nucleus (PBA)" xsd:string
+property_value: prefLabel "lateral nucleus" xsd:string
+
+[Term]
+id: PBA:10117
+name: dorsal division of lateral nucleus, lateral part
+synonym: "Ldl" EXACT []
+relationship: part_of PBA:10116 ! lateral nucleus
+property_value: prefLabel "dorsal division of lateral nucleus, lateral part" xsd:string
+
+[Term]
+id: PBA:10118
+name: dorsal division of lateral nucleus, medial part
+synonym: "Ldm" EXACT []
+relationship: part_of PBA:10116 ! lateral nucleus
+property_value: prefLabel "dorsal division of lateral nucleus, medial part" xsd:string
+
+[Term]
+id: PBA:10119
+name: ventral division of lateral nucleus, lateral part
+synonym: "Lvl" EXACT []
+relationship: part_of PBA:10116 ! lateral nucleus
+property_value: prefLabel "ventral division of lateral nucleus, lateral part" xsd:string
+
+[Term]
+id: PBA:10120
+name: ventral division of lateral nucleus, medial part
+synonym: "Lvm" EXACT []
+relationship: part_of PBA:10116 ! lateral nucleus
+property_value: prefLabel "ventral division of lateral nucleus, medial part" xsd:string
+
+[Term]
+id: PBA:10121
+name: central amygdaloid nucleus
+synonym: "CE" EXACT []
+relationship: part_of PBA:4002 ! amygdaloid complex
+property_value: IAO:0000589 "central amygdaloid nucleus (PBA)" xsd:string
+property_value: prefLabel "central amygdaloid nucleus" xsd:string
+
+[Term]
+id: PBA:10123
+name: lateral division of central nucleus
+synonym: "CEl" EXACT []
+relationship: part_of PBA:10121 ! central amygdaloid nucleus
+property_value: prefLabel "lateral division of central nucleus" xsd:string
+
+[Term]
+id: PBA:10124
+name: medial division of central nucleus
+synonym: "CEm" EXACT []
+relationship: part_of PBA:10121 ! central amygdaloid nucleus
+property_value: prefLabel "medial division of central nucleus" xsd:string
+
+[Term]
+id: PBA:10125
+name: medial nucleus
+synonym: "Me" EXACT []
+relationship: part_of PBA:128012616 ! corticomedial amygdaloid nucleus
+property_value: IAO:0000589 "medial vestibular nucleus (PBA)" xsd:string
+property_value: prefLabel "medial nucleus" xsd:string
+
+[Term]
+id: PBA:10128
+name: paralaminar nucleus
+synonym: "PL" EXACT []
+relationship: part_of PBA:128012678 ! basolateral nuclear complex
+property_value: prefLabel "paralaminar nucleus" xsd:string
+
+[Term]
+id: PBA:10132
+name: intercalated nucleus of amygdala
+synonym: "INA" EXACT []
+relationship: part_of PBA:4002 ! amygdaloid complex
+property_value: IAO:0000589 "intercalated amygdaloid nuclei (PBA)" xsd:string
+property_value: prefLabel "intercalated nucleus of amygdala" xsd:string
+
+[Term]
+id: PBA:10134
+name: rostral periamygdaloid cortex (rPAC)
+synonym: "rPAC" EXACT []
+relationship: part_of PBA:128012620 ! periamygdaloid cortex (cortical amygdaloid nucleus)
+property_value: prefLabel "rostral periamygdaloid cortex (rPAC)" xsd:string
+
+[Term]
+id: PBA:10135
+name: amygdalohippocampal area
+synonym: "AHA" EXACT []
+relationship: part_of PBA:128012616 ! corticomedial amygdaloid nucleus
+property_value: IAO:0000589 "amygdalohippocampal area (PBA)" xsd:string
+property_value: prefLabel "amygdalohippocampal area" xsd:string
+
+[Term]
+id: PBA:10136
+name: amygdalohippocampal area, magnocellualr part
+synonym: "AHAmc" EXACT []
+relationship: part_of PBA:10135 ! amygdalohippocampal area
+property_value: IAO:0000589 "amygdalohippocampal area, magnocellular division (PBA)" xsd:string
+property_value: prefLabel "amygdalohippocampal area, magnocellualr part" xsd:string
+
+[Term]
+id: PBA:10137
+name: amygdalohippocampal area, parvocelluar part
+synonym: "AHApc" EXACT []
+relationship: part_of PBA:10135 ! amygdalohippocampal area
+property_value: IAO:0000589 "amygdalohippocampal area, parvocellular division (PBA)" xsd:string
+property_value: prefLabel "amygdalohippocampal area, parvocelluar part" xsd:string
+
+[Term]
+id: PBA:10139
+name: amygdaloid intramedullary gray
+synonym: "IMG" EXACT []
+relationship: part_of PBA:4002 ! amygdaloid complex
+property_value: prefLabel "amygdaloid intramedullary gray" xsd:string
+
+[Term]
+id: PBA:10140
+name: amygdalopiriform transition area
+synonym: "APir" EXACT []
+relationship: part_of PBA:4002 ! amygdaloid complex
+property_value: IAO:0000589 "amygdalopiriform transition area (PBA)" xsd:string
+property_value: prefLabel "amygdalopiriform transition area" xsd:string
+
+[Term]
+id: PBA:10141
+name: basal nucleus of Meynert
+synonym: "BNM" EXACT []
+relationship: part_of PBA:128012976 ! basal forebrain
+property_value: IAO:0000589 "basal nucleus of telencephalon (PBA)" xsd:string
+property_value: prefLabel "basal nucleus of Meynert" xsd:string
+
+[Term]
+id: PBA:128011350
+name: telencephalon
+synonym: "Tel" EXACT []
+relationship: part_of PBA:3999 ! brain
+property_value: IAO:0000589 "telencephalon (PBA)" xsd:string
+property_value: prefLabel "telencephalon" xsd:string
+
+[Term]
+id: PBA:128011354
+name: cerebral cortex
+synonym: "Cx" EXACT []
+relationship: part_of PBA:128011350 ! telencephalon
+property_value: IAO:0000589 "cerebral cortex (PBA)" xsd:string
+property_value: prefLabel "cerebral cortex" xsd:string
+
+[Term]
+id: PBA:128011368
+name: subpial granular zone of dorsolateral prefrontal cortex
+synonym: "dlPFsg" EXACT []
+relationship: part_of PBA:294021766 ! subpial granular zone
+property_value: prefLabel "subpial granular zone of dorsolateral prefrontal cortex" xsd:string
+
+[Term]
+id: PBA:128011372
+name: marginal zone of dorsolateral prefrontal cortex
+synonym: "dlPFmz" EXACT []
+relationship: part_of PBA:294021774 ! marginal zone
+property_value: prefLabel "marginal zone of dorsolateral prefrontal cortex" xsd:string
+
+[Term]
+id: PBA:128011378
+name: cortical plate of dorsolateral prefrontal cortex
+synonym: "dlPFcp" EXACT []
+relationship: part_of PBA:294021920 ! cortical plate (inner)
+property_value: prefLabel "cortical plate of dorsolateral prefrontal cortex" xsd:string
+
+[Term]
+id: PBA:128011614
+name: marginal zone of rostral cingulate cortex
+synonym: "rCGmz" EXACT []
+relationship: part_of PBA:294021774 ! marginal zone
+property_value: prefLabel "marginal zone of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:128011624
+name: outer cortical plate of rostral cingulate cortex
+synonym: "rCGcpo" EXACT []
+relationship: part_of PBA:294021842 ! cortical plate (outer)
+property_value: prefLabel "outer cortical plate of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:128011638
+name: inner cortical plate (infragranular layer) of rostral cingulate cortex
+synonym: "rCGcpi" EXACT []
+relationship: part_of PBA:294021920 ! cortical plate (inner)
+property_value: prefLabel "inner cortical plate (infragranular layer) of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:128011646
+name: subplate zone of rostral cingulate cortex
+synonym: "rCGsp" EXACT []
+relationship: part_of PBA:294021932 ! subplate
+property_value: prefLabel "subplate zone of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:128011650
+name: intermediate zone of rostral cingulate cortex
+synonym: "rCGiz" EXACT []
+relationship: part_of PBA:294021942 ! intermediate zone
+property_value: prefLabel "intermediate zone of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:128011654
+name: subventricular zone of rostral cingulate cortex
+synonym: "rCGsz" EXACT []
+relationship: part_of PBA:294021970 ! subventricular zone
+property_value: prefLabel "subventricular zone of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:128011658
+name: outer subventricular zone of rostral cingulate cortex
+synonym: "rCGszo" EXACT []
+relationship: part_of PBA:294021980 ! subventricular zone (outer)
+property_value: prefLabel "outer subventricular zone of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:128011662
+name: inner subventricular zone of rostral cingulate cortex
+synonym: "rCGszi" EXACT []
+relationship: part_of PBA:294022000 ! subventricular zone (inner)
+property_value: prefLabel "inner subventricular zone of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:128011666
+name: ventricular zone of rostral cingulate cortex
+synonym: "rCGvz" EXACT []
+relationship: part_of PBA:294022030 ! ventricular zone
+property_value: prefLabel "ventricular zone of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:128011670
+name: outer ventricular zone of rostral cingulate cortex
+synonym: "rCGvzo" EXACT []
+relationship: part_of PBA:294022010 ! ventricular zone (outer)
+property_value: prefLabel "outer ventricular zone of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:128011674
+name: inner ventricular zone of rostral cingulate cortex
+synonym: "rCGvzi" EXACT []
+relationship: part_of PBA:294022020 ! ventricular zone (inner)
+property_value: prefLabel "inner ventricular zone of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:128011776
+name: marginal zone of S1
+synonym: "S1mz" EXACT []
+relationship: part_of PBA:294021774 ! marginal zone
+property_value: prefLabel "marginal zone of S1" xsd:string
+
+[Term]
+id: PBA:128011788
+name: outer cortical plate of S1
+synonym: "S1cpo" EXACT []
+relationship: part_of PBA:294021842 ! cortical plate (outer)
+property_value: prefLabel "outer cortical plate of S1" xsd:string
+
+[Term]
+id: PBA:128011796
+name: layer II of S1
+synonym: "S1-2" EXACT []
+relationship: part_of PBA:294021800 ! layer II
+property_value: prefLabel "layer II of S1" xsd:string
+
+[Term]
+id: PBA:128011800
+name: layer III of S1
+synonym: "S1-3" EXACT []
+relationship: part_of PBA:294021824 ! layer III
+property_value: prefLabel "layer III of S1" xsd:string
+
+[Term]
+id: PBA:128011804
+name: granular layer IV of S1
+synonym: "S1-4" EXACT []
+relationship: part_of PBA:294021852 ! layer IV
+property_value: prefLabel "granular layer IV of S1" xsd:string
+
+[Term]
+id: PBA:128011808
+name: inner cortical plate (infragranular layer) of S1
+synonym: "S1-cpi" EXACT []
+relationship: part_of PBA:294021920 ! cortical plate (inner)
+property_value: prefLabel "inner cortical plate (infragranular layer) of S1" xsd:string
+
+[Term]
+id: PBA:128011812
+name: layer V of S1
+synonym: "S1-5" EXACT []
+relationship: part_of PBA:294021878 ! layer V
+property_value: prefLabel "layer V of S1" xsd:string
+
+[Term]
+id: PBA:128011816
+name: layer VI of S1
+synonym: "S1-6" EXACT []
+relationship: part_of PBA:294021896 ! layer VI
+property_value: prefLabel "layer VI of S1" xsd:string
+
+[Term]
+id: PBA:128011820
+name: subplate zone of S1
+synonym: "S1sp" EXACT []
+relationship: part_of PBA:294021932 ! subplate
+property_value: prefLabel "subplate zone of S1" xsd:string
+
+[Term]
+id: PBA:128011824
+name: intermediate zone of S1
+synonym: "S1iz" EXACT []
+relationship: part_of PBA:294021942 ! intermediate zone
+property_value: prefLabel "intermediate zone of S1" xsd:string
+
+[Term]
+id: PBA:128011828
+name: subventricular zone of S1
+synonym: "S1sz" EXACT []
+relationship: part_of PBA:294021970 ! subventricular zone
+property_value: prefLabel "subventricular zone of S1" xsd:string
+
+[Term]
+id: PBA:128011832
+name: outer subventricular zone of S1
+synonym: "S1szo" EXACT []
+relationship: part_of PBA:294021980 ! subventricular zone (outer)
+property_value: prefLabel "outer subventricular zone of S1" xsd:string
+
+[Term]
+id: PBA:128011836
+name: inner subventricular zone of S1
+synonym: "S1szi" EXACT []
+relationship: part_of PBA:294022000 ! subventricular zone (inner)
+property_value: prefLabel "inner subventricular zone of S1" xsd:string
+
+[Term]
+id: PBA:128011840
+name: ventricular zone of S1
+synonym: "S1vz" EXACT []
+relationship: part_of PBA:294022030 ! ventricular zone
+property_value: prefLabel "ventricular zone of S1" xsd:string
+
+[Term]
+id: PBA:128011844
+name: outer ventricular zone of S1
+synonym: "S1vzo" EXACT []
+relationship: part_of PBA:294022010 ! ventricular zone (outer)
+property_value: prefLabel "outer ventricular zone of S1" xsd:string
+
+[Term]
+id: PBA:128011848
+name: inner ventricular zone of S1
+synonym: "S1vzi" EXACT []
+relationship: part_of PBA:294022020 ! ventricular zone (inner)
+property_value: prefLabel "inner ventricular zone of S1" xsd:string
+
+[Term]
+id: PBA:128011876
+name: lateral (anterior) entorhinal cortex (LEC)
+synonym: "LEC" EXACT []
+relationship: part_of PBA:294022158 ! entorhinal cortex
+property_value: IAO:0000589 "lateral entorhinal cortex (PBA)" xsd:string
+property_value: prefLabel "lateral (anterior) entorhinal cortex (LEC)" xsd:string
+
+[Term]
+id: PBA:128011900
+name: layer II of LEC
+synonym: "LEC2" EXACT []
+relationship: part_of PBA:128011876 ! lateral (anterior) entorhinal cortex (LEC)
+property_value: prefLabel "layer II of LEC" xsd:string
+
+[Term]
+id: PBA:128011936
+name: medial (posterior) entorhinal cortex (MEC)
+synonym: "MEC" EXACT []
+relationship: part_of PBA:294022158 ! entorhinal cortex
+property_value: IAO:0000589 "medial entorhinal cortex (PBA)" xsd:string
+property_value: prefLabel "medial (posterior) entorhinal cortex (MEC)" xsd:string
+
+[Term]
+id: PBA:128011960
+name: layer II of MEC
+synonym: "MEC2" EXACT []
+relationship: part_of PBA:128011936 ! medial (posterior) entorhinal cortex (MEC)
+property_value: prefLabel "layer II of MEC" xsd:string
+
+[Term]
+id: PBA:128012080
+name: perirhinal cortex
+synonym: "PC" EXACT []
+relationship: part_of PBA:4003 ! hippocampal cortex (hippocampal formation)
+property_value: IAO:0000589 "perirhinal cortex (PBA)" xsd:string
+property_value: prefLabel "perirhinal cortex" xsd:string
+
+[Term]
+id: PBA:128012084
+name: medial perirhinal cortex (area 35)
+synonym: "MPC" EXACT []
+relationship: part_of PBA:128012080 ! perirhinal cortex
+property_value: prefLabel "medial perirhinal cortex (area 35)" xsd:string
+
+[Term]
+id: PBA:128012120
+name: layer V of perirhinal cortex (area 35)
+synonym: "MPC5" EXACT []
+relationship: part_of PBA:128012084 ! medial perirhinal cortex (area 35)
+property_value: prefLabel "layer V of perirhinal cortex (area 35)" xsd:string
+
+[Term]
+id: PBA:128012144
+name: lateral perirhinal cortex (area 36)
+synonym: "LPC" EXACT []
+relationship: part_of PBA:128012080 ! perirhinal cortex
+property_value: prefLabel "lateral perirhinal cortex (area 36)" xsd:string
+
+[Term]
+id: PBA:128012220
+name: marginal zone of dentate gyrus (cortex)
+synonym: "DGmz" EXACT []
+relationship: part_of PBA:10075 ! dentate gyrus (dentate cortex)
+property_value: prefLabel "marginal zone of dentate gyrus (cortex)" xsd:string
+
+[Term]
+id: PBA:128012226
+name: granular layer anlage of dentate gyrus (cortex)
+synonym: "DGgra" EXACT []
+relationship: part_of PBA:10075 ! dentate gyrus (dentate cortex)
+property_value: prefLabel "granular layer anlage of dentate gyrus (cortex)" xsd:string
+
+[Term]
+id: PBA:128012232
+name: subgranular layer anlage of dentate gyrus (cortex)
+synonym: "DGsga" EXACT []
+relationship: part_of PBA:10075 ! dentate gyrus (dentate cortex)
+property_value: prefLabel "subgranular layer anlage of dentate gyrus (cortex)" xsd:string
+
+[Term]
+id: PBA:128012238
+name: polyform layer anlage of dentate gyrus (cortex)
+synonym: "DGpfa" EXACT []
+relationship: part_of PBA:10075 ! dentate gyrus (dentate cortex)
+property_value: prefLabel "polyform layer anlage of dentate gyrus (cortex)" xsd:string
+
+[Term]
+id: PBA:128012244
+name: hippocampal proper
+synonym: "Hip" EXACT []
+relationship: part_of PBA:4003 ! hippocampal cortex (hippocampal formation)
+property_value: IAO:0000589 "Ammon's horn (PBA)" xsd:string
+property_value: prefLabel "hippocampal proper" xsd:string
+
+[Term]
+id: PBA:128012250
+name: marginal zone of CA1
+synonym: "CA1mz" EXACT []
+relationship: part_of PBA:10058 ! CA1 region
+property_value: prefLabel "marginal zone of CA1" xsd:string
+
+[Term]
+id: PBA:128012258
+name: hippocampal plate of CA1
+synonym: "CA1cp" EXACT []
+relationship: part_of PBA:10058 ! CA1 region
+property_value: prefLabel "hippocampal plate of CA1" xsd:string
+
+[Term]
+id: PBA:128012264
+name: hippocampal subplate of CA1
+synonym: "CA1sp" EXACT []
+relationship: part_of PBA:10058 ! CA1 region
+property_value: prefLabel "hippocampal subplate of CA1" xsd:string
+
+[Term]
+id: PBA:128012270
+name: hippocampal intermediate zone of CA1
+synonym: "CA1iz" EXACT []
+relationship: part_of PBA:10058 ! CA1 region
+property_value: prefLabel "hippocampal intermediate zone of CA1" xsd:string
+
+[Term]
+id: PBA:128012274
+name: hippocampal subventricular zone of CA1
+synonym: "CA1szi" EXACT []
+relationship: part_of PBA:10058 ! CA1 region
+property_value: prefLabel "hippocampal subventricular zone of CA1" xsd:string
+
+[Term]
+id: PBA:128012278
+name: hippocampal ventricular zone of CA1
+synonym: "CA1vz" EXACT []
+relationship: part_of PBA:10058 ! CA1 region
+property_value: prefLabel "hippocampal ventricular zone of CA1" xsd:string
+
+[Term]
+id: PBA:128012284
+name: marginal zone of CA2
+synonym: "CA2mz" EXACT []
+relationship: part_of PBA:10063 ! CA2 region
+property_value: prefLabel "marginal zone of CA2" xsd:string
+
+[Term]
+id: PBA:128012292
+name: hippocampal plate of CA2
+synonym: "CA2cp" EXACT []
+relationship: part_of PBA:10063 ! CA2 region
+property_value: prefLabel "hippocampal plate of CA2" xsd:string
+
+[Term]
+id: PBA:128012298
+name: hippocampal subplate of CA2
+synonym: "CA2sp" EXACT []
+relationship: part_of PBA:10063 ! CA2 region
+property_value: prefLabel "hippocampal subplate of CA2" xsd:string
+
+[Term]
+id: PBA:128012318
+name: marginal zone of CA3
+synonym: "CA3mz" EXACT []
+relationship: part_of PBA:10068 ! CA3 region
+property_value: prefLabel "marginal zone of CA3" xsd:string
+
+[Term]
+id: PBA:128012326
+name: hippocampal plate of CA3
+synonym: "CA3cp" EXACT []
+relationship: part_of PBA:10068 ! CA3 region
+property_value: prefLabel "hippocampal plate of CA3" xsd:string
+
+[Term]
+id: PBA:128012332
+name: hippocampal subplate of CA3
+synonym: "CA3sp" EXACT []
+relationship: part_of PBA:10068 ! CA3 region
+property_value: prefLabel "hippocampal subplate of CA3" xsd:string
+
+[Term]
+id: PBA:128012354
+name: subicular cortex
+synonym: "SCx" EXACT []
+relationship: part_of PBA:4003 ! hippocampal cortex (hippocampal formation)
+property_value: IAO:0000589 "subiculum (PBA)" xsd:string
+property_value: prefLabel "subicular cortex" xsd:string
+
+[Term]
+id: PBA:128012368
+name: hippocampal plate of subiculum
+synonym: "Scp" EXACT []
+relationship: part_of PBA:10054 ! subiculum
+property_value: prefLabel "hippocampal plate of subiculum" xsd:string
+
+[Term]
+id: PBA:128012372
+name: pyramidal layer of subiculum
+synonym: "Spy" EXACT []
+relationship: part_of PBA:128012368 ! hippocampal plate of subiculum
+property_value: prefLabel "pyramidal layer of subiculum" xsd:string
+
+[Term]
+id: PBA:128012400
+name: rostral (anterior) presubiculum
+synonym: "PrSr" EXACT []
+relationship: part_of PBA:10055 ! presubicular cortex (presubiculum)
+property_value: prefLabel "rostral (anterior) presubiculum" xsd:string
+
+[Term]
+id: PBA:128012404
+name: caudal (posterior) presubiculum
+synonym: "PrSc" EXACT []
+relationship: part_of PBA:10055 ! presubicular cortex (presubiculum)
+property_value: prefLabel "caudal (posterior) presubiculum" xsd:string
+
+[Term]
+id: PBA:128012418
+name: subpial granular zone of V1
+synonym: "V1sg" EXACT []
+relationship: part_of PBA:294021766 ! subpial granular zone
+property_value: prefLabel "subpial granular zone of V1" xsd:string
+
+[Term]
+id: PBA:128012422
+name: marginal zone of V1
+synonym: "V1mz" EXACT []
+relationship: part_of PBA:294021774 ! marginal zone
+property_value: prefLabel "marginal zone of V1" xsd:string
+
+[Term]
+id: PBA:128012428
+name: cortical plate of V1
+synonym: "V1cp" EXACT []
+relationship: part_of PBA:294021914 ! cortical plate
+property_value: prefLabel "cortical plate of V1" xsd:string
+
+[Term]
+id: PBA:128012432
+name: outer cortical plate of V1
+synonym: "V1cpo" EXACT []
+relationship: part_of PBA:294021842 ! cortical plate (outer)
+property_value: prefLabel "outer cortical plate of V1" xsd:string
+
+[Term]
+id: PBA:128012436
+name: supragranular layer of V1
+synonym: "V1-2/3" EXACT []
+relationship: part_of PBA:294021818 ! layer II/III
+property_value: prefLabel "supragranular layer of V1" xsd:string
+
+[Term]
+id: PBA:128012458
+name: inner cortical plate (infragranular layer) of V1
+synonym: "V1cpi" EXACT []
+relationship: part_of PBA:294021920 ! cortical plate (inner)
+property_value: prefLabel "inner cortical plate (infragranular layer) of V1" xsd:string
+
+[Term]
+id: PBA:128012466
+name: subplate zone of V1
+synonym: "V1sp" EXACT []
+relationship: part_of PBA:294021932 ! subplate
+property_value: prefLabel "subplate zone of V1" xsd:string
+
+[Term]
+id: PBA:128012470
+name: intermediate cell dense zone of V1
+synonym: "V1icd" EXACT []
+relationship: part_of PBA:294021942 ! intermediate zone
+property_value: prefLabel "intermediate cell dense zone of V1" xsd:string
+
+[Term]
+id: PBA:128012474
+name: intermediate zone of V1
+synonym: "V1iz" EXACT []
+relationship: part_of PBA:294021942 ! intermediate zone
+property_value: prefLabel "intermediate zone of V1" xsd:string
+
+[Term]
+id: PBA:128012478
+name: subventricular zone of V1
+synonym: "V1sz" EXACT []
+relationship: part_of PBA:294021970 ! subventricular zone
+property_value: prefLabel "subventricular zone of V1" xsd:string
+
+[Term]
+id: PBA:128012482
+name: outer subventricular zone of V1
+synonym: "V1szo" EXACT []
+relationship: part_of PBA:294021980 ! subventricular zone (outer)
+property_value: prefLabel "outer subventricular zone of V1" xsd:string
+
+[Term]
+id: PBA:128012486
+name: inner subventricular zone of V1
+synonym: "V1szi" EXACT []
+relationship: part_of PBA:294022000 ! subventricular zone (inner)
+property_value: prefLabel "inner subventricular zone of V1" xsd:string
+
+[Term]
+id: PBA:128012490
+name: ventricular zone of V1
+synonym: "V1vz" EXACT []
+relationship: part_of PBA:294022030 ! ventricular zone
+property_value: prefLabel "ventricular zone of V1" xsd:string
+
+[Term]
+id: PBA:128012494
+name: outer ventricular zone of V1
+synonym: "V1vzo" EXACT []
+relationship: part_of PBA:294022010 ! ventricular zone (outer)
+property_value: prefLabel "outer ventricular zone of V1" xsd:string
+
+[Term]
+id: PBA:128012498
+name: inner ventricular zone of V1
+synonym: "V1vzi" EXACT []
+relationship: part_of PBA:294022020 ! ventricular zone (inner)
+property_value: prefLabel "inner ventricular zone of V1" xsd:string
+
+[Term]
+id: PBA:128012584
+name: rostral migratory stream (RMS)
+synonym: "RMS" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "rostral migratory stream (PBA)" xsd:string
+property_value: prefLabel "rostral migratory stream (RMS)" xsd:string
+
+[Term]
+id: PBA:128012588
+name: ventricular portion of RMS
+synonym: "RMSvz" EXACT []
+relationship: part_of PBA:128012584 ! rostral migratory stream (RMS)
+property_value: prefLabel "ventricular portion of RMS" xsd:string
+
+[Term]
+id: PBA:128012596
+name: cerebral nuclei
+synonym: "CxN" EXACT []
+relationship: part_of PBA:128011350 ! telencephalon
+property_value: IAO:0000589 "cerebral nuclei (PBA)" xsd:string
+property_value: IAO:0000589 "collection of basal ganglia (PBA)" xsd:string
+property_value: prefLabel "cerebral nuclei" xsd:string
+
+[Term]
+id: PBA:128012616
+name: corticomedial amygdaloid nucleus
+synonym: "CM" EXACT []
+relationship: part_of PBA:4002 ! amygdaloid complex
+property_value: IAO:0000589 "central medial nucleus (PBA)" xsd:string
+property_value: prefLabel "corticomedial amygdaloid nucleus" xsd:string
+
+[Term]
+id: PBA:128012620
+name: periamygdaloid cortex (cortical amygdaloid nucleus)
+synonym: "PAC" EXACT []
+relationship: part_of PBA:128012616 ! corticomedial amygdaloid nucleus
+property_value: prefLabel "periamygdaloid cortex (cortical amygdaloid nucleus)" xsd:string
+
+[Term]
+id: PBA:128012634
+name: caudal periamygdaloid cortex (cPAC)
+synonym: "cPAC" EXACT []
+relationship: part_of PBA:128012620 ! periamygdaloid cortex (cortical amygdaloid nucleus)
+property_value: prefLabel "caudal periamygdaloid cortex (cPAC)" xsd:string
+
+[Term]
+id: PBA:128012638
+name: caudal periamygdaloid cortex, dorsal part
+synonym: "cPACd" EXACT []
+relationship: part_of PBA:128012634 ! caudal periamygdaloid cortex (cPAC)
+property_value: prefLabel "caudal periamygdaloid cortex, dorsal part" xsd:string
+
+[Term]
+id: PBA:128012678
+name: basolateral nuclear complex
+synonym: "BLN" EXACT []
+relationship: part_of PBA:4002 ! amygdaloid complex
+property_value: IAO:0000589 "basolateral amygdaloid nuclear complex (PBA)" xsd:string
+property_value: prefLabel "basolateral nuclear complex" xsd:string
+
+[Term]
+id: PBA:128012818
+name: ganglionic eminence (VZ in basal nuclei)
+synonym: "GE" EXACT []
+relationship: part_of PBA:4001 ! basal nuclei (basal ganglia)
+property_value: IAO:0000589 "ganglionic eminence (PBA)" xsd:string
+property_value: prefLabel "ganglionic eminence (VZ in basal nuclei)" xsd:string
+
+[Term]
+id: PBA:128012822
+name: lateral ganglionic eminence
+synonym: "LGE" EXACT []
+relationship: part_of PBA:128012818 ! ganglionic eminence (VZ in basal nuclei)
+property_value: IAO:0000589 "lateral ganglionic eminence (PBA)" xsd:string
+property_value: prefLabel "lateral ganglionic eminence" xsd:string
+
+[Term]
+id: PBA:128012834
+name: medial ganglionic eminence
+synonym: "MGE" EXACT []
+relationship: part_of PBA:128012818 ! ganglionic eminence (VZ in basal nuclei)
+property_value: IAO:0000589 "medial ganglionic eminence (PBA)" xsd:string
+property_value: prefLabel "medial ganglionic eminence" xsd:string
+
+[Term]
+id: PBA:128012846
+name: caudal ganglionic eminence
+synonym: "CGE" EXACT []
+relationship: part_of PBA:128012818 ! ganglionic eminence (VZ in basal nuclei)
+property_value: IAO:0000589 "caudal ganglionic eminence (PBA)" xsd:string
+property_value: prefLabel "caudal ganglionic eminence" xsd:string
+
+[Term]
+id: PBA:128012920
+name: shell of nucleus accumbens, medial part
+synonym: "NACsm" EXACT []
+relationship: part_of PBA:10094 ! shell of nucleus accumbens
+property_value: prefLabel "shell of nucleus accumbens, medial part" xsd:string
+
+[Term]
+id: PBA:128012926
+name: main island of Calleja
+synonym: "IsCjm" EXACT []
+relationship: part_of PBA:10095 ! islands of Calleja
+property_value: prefLabel "main island of Calleja" xsd:string
+
+[Term]
+id: PBA:128012960
+name: claustrum
+synonym: "Cla" EXACT []
+relationship: part_of PBA:4001 ! basal nuclei (basal ganglia)
+property_value: IAO:0000589 "claustrum of brain (PBA)" xsd:string
+property_value: prefLabel "claustrum" xsd:string
+
+[Term]
+id: PBA:128012976
+name: basal forebrain
+synonym: "BF" EXACT []
+relationship: part_of PBA:128012596 ! cerebral nuclei
+property_value: IAO:0000589 "basal forebrain (PBA)" xsd:string
+property_value: prefLabel "basal forebrain" xsd:string
+
+[Term]
+id: PBA:128013010
+name: diencephalon
+synonym: "Die" EXACT []
+relationship: part_of PBA:3999 ! brain
+property_value: IAO:0000589 "diencephalon (PBA)" xsd:string
+property_value: prefLabel "diencephalon" xsd:string
+
+[Term]
+id: PBA:128013014
+name: thalamus
+synonym: "Thal" EXACT []
+relationship: part_of PBA:128013010 ! diencephalon
+property_value: IAO:0000589 "dorsal plus ventral thalamus (PBA)" xsd:string
+property_value: prefLabel "thalamus" xsd:string
+
+[Term]
+id: PBA:128013018
+name: dorsal thalamus
+synonym: "DTh" EXACT []
+relationship: part_of PBA:128013014 ! thalamus
+property_value: IAO:0000589 "dorsal thalamus (PBA)" xsd:string
+property_value: prefLabel "dorsal thalamus" xsd:string
+
+[Term]
+id: PBA:128013070
+name: lateral geniculate nucleus
+synonym: "LGN" EXACT []
+relationship: part_of PBA:128013018 ! dorsal thalamus
+property_value: IAO:0000589 "lateral geniculate body (PBA)" xsd:string
+property_value: prefLabel "lateral geniculate nucleus" xsd:string
+
+[Term]
+id: PBA:128013074
+name: dorsal lateral geniculate nucleus
+synonym: "DLG" EXACT []
+relationship: part_of PBA:128013070 ! lateral geniculate nucleus
+property_value: IAO:0000589 "dorsal lateral geniculate nucleus (PBA)" xsd:string
+property_value: prefLabel "dorsal lateral geniculate nucleus" xsd:string
+
+[Term]
+id: PBA:128013078
+name: dorsal lateral geniculate nucleus, magnocellular layers
+synonym: "DLGmc" EXACT []
+relationship: part_of PBA:128013074 ! dorsal lateral geniculate nucleus
+property_value: IAO:0000589 "magnocellular layer of dorsal nucleus of lateral geniculate body (PBA)" xsd:string
+property_value: prefLabel "dorsal lateral geniculate nucleus, magnocellular layers" xsd:string
+
+[Term]
+id: PBA:128013091
+name: dorsal lateral geniculate nucleus, parvocellular layers
+synonym: "DLGpc" EXACT []
+relationship: part_of PBA:128013074 ! dorsal lateral geniculate nucleus
+property_value: IAO:0000589 "parvocellular layer of dorsal nucleus of lateral geniculate body (PBA)" xsd:string
+property_value: prefLabel "dorsal lateral geniculate nucleus, parvocellular layers" xsd:string
+
+[Term]
+id: PBA:128013113
+name: dorsal lateral geniculate nucleus, koniocellular layers
+synonym: "DLGkc" EXACT []
+relationship: part_of PBA:128013074 ! dorsal lateral geniculate nucleus
+property_value: prefLabel "dorsal lateral geniculate nucleus, koniocellular layers" xsd:string
+
+[Term]
+id: PBA:128013147
+name: epithalamus
+synonym: "ETh" EXACT []
+relationship: part_of PBA:128013014 ! thalamus
+property_value: IAO:0000589 "epithalamus (PBA)" xsd:string
+property_value: prefLabel "epithalamus" xsd:string
+
+[Term]
+id: PBA:12984
+name: dorsolateral prefrontal cortex (areas 9 and 46)
+synonym: "dlPF" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "dorsolateral prefrontal cortex (areas 9 and 46)" xsd:string
+
+[Term]
+id: PBA:12986
+name: layer II of dorsolateral prefrontal cortex
+synonym: "dlPF2" EXACT []
+relationship: part_of PBA:294021800 ! layer II
+property_value: IAO:0000589 "dorsolateral prefrontal cortex layer 2 (PBA)" xsd:string
+property_value: prefLabel "layer II of dorsolateral prefrontal cortex" xsd:string
+
+[Term]
+id: PBA:12987
+name: layer III of dorsolateral prefrontal cortex
+synonym: "dlPF3" EXACT []
+relationship: part_of PBA:294021824 ! layer III
+property_value: IAO:0000589 "dorsolateral prefrontal cortex layer 3 (PBA)" xsd:string
+property_value: prefLabel "layer III of dorsolateral prefrontal cortex" xsd:string
+
+[Term]
+id: PBA:12988
+name: granular layer IV of dorsolateral prefrontal cortex
+synonym: "dlPF4" EXACT []
+relationship: part_of PBA:294021852 ! layer IV
+property_value: IAO:0000589 "dorsolateral prefrontal cortex layer 4 (PBA)" xsd:string
+property_value: prefLabel "granular layer IV of dorsolateral prefrontal cortex" xsd:string
+
+[Term]
+id: PBA:12989
+name: layer V of dorsolateral prefrontal cortex
+synonym: "dlPF5" EXACT []
+relationship: part_of PBA:294021878 ! layer V
+property_value: IAO:0000589 "dorsolateral prefrontal cortex layer 5 (PBA)" xsd:string
+property_value: prefLabel "layer V of dorsolateral prefrontal cortex" xsd:string
+
+[Term]
+id: PBA:12990
+name: layer VI of dorsolateral prefrontal cortex
+synonym: "dlPF6" EXACT []
+relationship: part_of PBA:294021896 ! layer VI
+property_value: IAO:0000589 "dorsolateral prefrontal cortex layer 6 (PBA)" xsd:string
+property_value: prefLabel "layer VI of dorsolateral prefrontal cortex" xsd:string
+
+[Term]
+id: PBA:159658800
+name: outer fiber (plexiform) zone of rostral cingulate cortex
+synonym: "rCGofz" EXACT []
+relationship: part_of PBA:294021960 ! outer fiber zone
+property_value: prefLabel "outer fiber (plexiform) zone of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:159658804
+name: inner fiber (plexiform) zone of rostral cingulate cortex
+synonym: "rCGifz" EXACT []
+relationship: part_of PBA:294021990 ! inner fiber zone
+property_value: prefLabel "inner fiber (plexiform) zone of rostral cingulate cortex" xsd:string
+
+[Term]
+id: PBA:159658808
+name: outer fiber (plexiform) zone of S1
+synonym: "S1ofz" EXACT []
+relationship: part_of PBA:294021960 ! outer fiber zone
+property_value: prefLabel "outer fiber (plexiform) zone of S1" xsd:string
+
+[Term]
+id: PBA:159658816
+name: inner fiber (plexiform) zone of S1
+synonym: "S1ifz" EXACT []
+relationship: part_of PBA:294021990 ! inner fiber zone
+property_value: prefLabel "inner fiber (plexiform) zone of S1" xsd:string
+
+[Term]
+id: PBA:159658820
+name: dentate migratory stream
+synonym: "DMS" EXACT []
+relationship: part_of PBA:10075 ! dentate gyrus (dentate cortex)
+property_value: prefLabel "dentate migratory stream" xsd:string
+
+[Term]
+id: PBA:159658824
+name: cortical hem
+synonym: "Hem" EXACT []
+relationship: part_of PBA:4003 ! hippocampal cortex (hippocampal formation)
+property_value: prefLabel "cortical hem" xsd:string
+
+[Term]
+id: PBA:159658836
+name: outer fiber (plexiform) zone of V1
+synonym: "V1ofz" EXACT []
+relationship: part_of PBA:294021960 ! outer fiber zone
+property_value: prefLabel "outer fiber (plexiform) zone of V1" xsd:string
+
+[Term]
+id: PBA:159658840
+name: transitory migratory zone of V1
+synonym: "V1tmz" EXACT []
+relationship: part_of PBA:294021954 ! transitory migratory zone
+property_value: prefLabel "transitory migratory zone of V1" xsd:string
+
+[Term]
+id: PBA:159658844
+name: inner fiber (plexiform) zone of V1
+synonym: "V1ifz" EXACT []
+relationship: part_of PBA:294021990 ! inner fiber zone
+property_value: prefLabel "inner fiber (plexiform) zone of V1" xsd:string
+
+[Term]
+id: PBA:159658852
+name: lateral ganglionic eminence-cortex border
+synonym: "LGEcx" EXACT []
+relationship: part_of PBA:128012818 ! ganglionic eminence (VZ in basal nuclei)
+property_value: prefLabel "lateral ganglionic eminence-cortex border" xsd:string
+
+[Term]
+id: PBA:294021746
+name: neocortex
+synonym: "NCx" EXACT []
+relationship: part_of PBA:128011354 ! cerebral cortex
+property_value: IAO:0000589 "neocortex (PBA)" xsd:string
+property_value: prefLabel "neocortex" xsd:string
+
+[Term]
+id: PBA:294021766
+name: subpial granular zone
+synonym: "SG" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "subpial granular zone" xsd:string
+
+[Term]
+id: PBA:294021774
+name: marginal zone
+synonym: "MZ" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "cerebral cortex marginal layer (PBA)" xsd:string
+property_value: prefLabel "marginal zone" xsd:string
+
+[Term]
+id: PBA:294021786
+name: layer I
+synonym: "L1" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "cortical layer I (PBA)" xsd:string
+property_value: prefLabel "layer I" xsd:string
+
+[Term]
+id: PBA:294021800
+name: layer II
+synonym: "L2" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "cortical layer II (PBA)" xsd:string
+property_value: prefLabel "layer II" xsd:string
+
+[Term]
+id: PBA:294021818
+name: layer II/III
+synonym: "L2/3" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "layer II/III" xsd:string
+
+[Term]
+id: PBA:294021824
+name: layer III
+synonym: "L3" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "cortical layer III (PBA)" xsd:string
+property_value: prefLabel "layer III" xsd:string
+
+[Term]
+id: PBA:294021842
+name: cortical plate (outer)
+synonym: "CPo" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "cortical plate (outer)" xsd:string
+
+[Term]
+id: PBA:294021852
+name: layer IV
+synonym: "L4" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "cortical layer IV (PBA)" xsd:string
+property_value: prefLabel "layer IV" xsd:string
+
+[Term]
+id: PBA:294021878
+name: layer V
+synonym: "L5" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "cortical layer V (PBA)" xsd:string
+property_value: prefLabel "layer V" xsd:string
+
+[Term]
+id: PBA:294021896
+name: layer VI
+synonym: "L6" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "cortical layer VI (PBA)" xsd:string
+property_value: prefLabel "layer VI" xsd:string
+
+[Term]
+id: PBA:294021914
+name: cortical plate
+synonym: "CP" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "cortical plate (PBA)" xsd:string
+property_value: prefLabel "cortical plate" xsd:string
+
+[Term]
+id: PBA:294021920
+name: cortical plate (inner)
+synonym: "CPi" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "cortical plate (inner)" xsd:string
+
+[Term]
+id: PBA:294021932
+name: subplate
+synonym: "SP" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "cortical subplate (PBA)" xsd:string
+property_value: prefLabel "subplate" xsd:string
+
+[Term]
+id: PBA:294021942
+name: intermediate zone
+synonym: "IZ" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "cerebellum intermediate zone (PBA)" xsd:string
+property_value: prefLabel "intermediate zone" xsd:string
+
+[Term]
+id: PBA:294021954
+name: transitory migratory zone
+synonym: "TMZ" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "transitory migratory zone" xsd:string
+
+[Term]
+id: PBA:294021960
+name: outer fiber zone
+synonym: "OFZ" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "outer fiber zone" xsd:string
+
+[Term]
+id: PBA:294021970
+name: subventricular zone
+synonym: "SZ" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "cerebral cortex subventricular zone (PBA)" xsd:string
+property_value: IAO:0000589 "postnatal subventricular zone (PBA)" xsd:string
+property_value: prefLabel "subventricular zone" xsd:string
+
+[Term]
+id: PBA:294021980
+name: subventricular zone (outer)
+synonym: "SZo" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "subventricular zone (outer)" xsd:string
+
+[Term]
+id: PBA:294021990
+name: inner fiber zone
+synonym: "IFZ" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "inner fiber zone" xsd:string
+
+[Term]
+id: PBA:294022000
+name: subventricular zone (inner)
+synonym: "SZi" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "subventricular zone (inner)" xsd:string
+
+[Term]
+id: PBA:294022010
+name: ventricular zone (outer)
+synonym: "VZo" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "ventricular zone (outer)" xsd:string
+
+[Term]
+id: PBA:294022020
+name: ventricular zone (inner)
+synonym: "VZi" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "ventricular zone (inner)" xsd:string
+
+[Term]
+id: PBA:294022030
+name: ventricular zone
+synonym: "VZ" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "ventricular zone (PBA)" xsd:string
+property_value: prefLabel "ventricular zone" xsd:string
+
+[Term]
+id: PBA:294022044
+name: white matter
+synonym: "WM" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "white matter (PBA)" xsd:string
+property_value: prefLabel "white matter" xsd:string
+
+[Term]
+id: PBA:294022158
+name: entorhinal cortex
+synonym: "ECx" EXACT []
+relationship: part_of PBA:4003 ! hippocampal cortex (hippocampal formation)
+property_value: IAO:0000589 "entorhinal cortex (PBA)" xsd:string
+property_value: prefLabel "entorhinal cortex" xsd:string
+
+[Term]
+id: PBA:3999
+name: brain
+synonym: "Br" EXACT []
+relationship: part_of NCBITaxon:9443
+property_value: IAO:0000589 "brain (PBA)" xsd:string
+property_value: prefLabel "brain" xsd:string
+
+[Term]
+id: PBA:4000
+name: medial frontal cortex (areas 24, 25 and 32)
+synonym: "MFC" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "medial frontal cortex (areas 24, 25 and 32)" xsd:string
+
+[Term]
+id: PBA:4001
+name: basal nuclei (basal ganglia)
+synonym: "BN" EXACT []
+relationship: part_of PBA:128012596 ! cerebral nuclei
+property_value: IAO:0000589 "collection of basal ganglia (PBA)" xsd:string
+property_value: prefLabel "basal nuclei (basal ganglia)" xsd:string
+
+[Term]
+id: PBA:4002
+name: amygdaloid complex
+synonym: "Amy" EXACT []
+relationship: part_of PBA:128012596 ! cerebral nuclei
+property_value: IAO:0000589 "amygdala (PBA)" xsd:string
+property_value: prefLabel "amygdaloid complex" xsd:string
+
+[Term]
+id: PBA:4003
+name: hippocampal cortex (hippocampal formation)
+synonym: "HF" EXACT []
+relationship: part_of PBA:128011354 ! cerebral cortex
+property_value: IAO:0000589 "hippocampal formation (PBA)" xsd:string
+property_value: prefLabel "hippocampal cortex (hippocampal formation)" xsd:string
+
+[Term]
+id: PBA:4004
+name: occipital cortex
+synonym: "Ocx" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: IAO:0000589 "occipital cortex (PBA)" xsd:string
+property_value: prefLabel "occipital cortex" xsd:string
+
+[Term]
+id: PBA:9999
+name: rostral cingulate cortex (areas 24 and 32)
+synonym: "rCG" EXACT []
+relationship: part_of PBA:294021746 ! neocortex
+property_value: prefLabel "rostral cingulate cortex (areas 24 and 32)" xsd:string
+
+[Term]
+id: PBA:ENTITY
+name: PBA entity
+relationship: only_in_taxon NCBITaxon:9443
+relationship: part_of NCBITaxon:9443
+property_value: prefLabel "PBA entity" xsd:string
+
+[Typedef]
+id: dc-contributor
+name: contributor
+xref: http://purl.org/dc/elements/1.1/contributor
+is_metadata_tag: true
+
+[Typedef]
+id: dc-creator
+name: creator
+xref: http://purl.org/dc/elements/1.1/creator
+is_metadata_tag: true
+
+[Typedef]
+id: dc-description
+name: description
+xref: http://purl.org/dc/elements/1.1/description
+is_metadata_tag: true
+
+[Typedef]
+id: dc-publisher
+name: publisher
+xref: http://purl.org/dc/elements/1.1/publisher
+is_metadata_tag: true
+
+[Typedef]
+id: dc-source
+name: derived from resource
+xref: http://purl.org/dc/elements/1.1/source
+is_metadata_tag: true
+
+[Typedef]
+id: dc-title
+name: title
+xref: http://purl.org/dc/elements/1.1/title
+is_metadata_tag: true
+
+[Typedef]
+id: dcterms-isReferencedBy
+name: is referenced by
+xref: http://purl.org/dc/terms/isReferencedBy
+is_metadata_tag: true
+
+[Typedef]
+id: dcterms-references
+name: references
+xref: http://purl.org/dc/terms/references
+is_metadata_tag: true
+
+[Typedef]
+id: develops_from
+xref: RO:0002225
+
+[Typedef]
+id: doap-GitRepository
+name: Git repository
+xref: http://usefulinc.com/ns/doap#GitRepository
+is_metadata_tag: true
+
+[Typedef]
+id: doap-SVNRepository
+name: SVN repository
+xref: http://usefulinc.com/ns/doap#SVNRepository
+is_metadata_tag: true
+
+[Typedef]
+id: doap-bug-database
+name: bug database
+xref: http://usefulinc.com/ns/doap#bug-database
+is_metadata_tag: true
+
+[Typedef]
+id: doap-wiki
+name: wiki
+xref: http://usefulinc.com/ns/doap#wiki
+is_metadata_tag: true
+
+[Typedef]
+id: example_of_usage
+name: example of usage
+xref: IAO:0000122
+is_metadata_tag: true
+
+[Typedef]
+id: foaf-depicted_by
+name: depicted_by
+xref: http://xmlns.com/foaf/0.1/depicted_by
+is_metadata_tag: true
+
+[Typedef]
+id: foaf-homepage
+name: homepage
+xref: http://xmlns.com/foaf/0.1/homepage
+is_metadata_tag: true
+
+[Typedef]
+id: occurs_in
+xref: BFO:0000066
+
+[Typedef]
+id: only_in_taxon
+xref: RO:0002160
+
+[Typedef]
+id: part_of
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: seeAlso
+name: see also
+xref: http://www.w3.org/2000/01/rdf-schema#seeAlso
+is_metadata_tag: true
 
