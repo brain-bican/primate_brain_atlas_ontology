@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/pbao/releases/2023-08-23/pbao-simple-non-classified.owl
+data-version: https://purl.brain-bican.org/ontology/pbao/releases/2023-08-24/pbao-simple-non-classified.owl
 ontology: https://purl.brain-bican.org/ontology/pbao/pbao-simple-non-classified.owl
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
 property_value: http://purl.org/dc/terms/title "Primate Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2023-08-23" xsd:string
+property_value: owl:versionInfo "2023-08-24" xsd:string
 
 [Term]
 id: ABA:Brain
@@ -56,6 +56,14 @@ property_value: prefLabel "ABA entity" xsd:string
 id: ABA:SNI
 relationship: part_of NCBITaxon:10090
 property_value: IAO:0000589 "substantia nigra pars lateralis (ABA)" xsd:string
+
+[Term]
+id: NCBITaxon:10090
+property_value: prefLabel "Mus musculus" xsd:string
+
+[Term]
+id: NCBITaxon:9443
+property_value: prefLabel "Primates" xsd:string
 
 [Term]
 id: PBA:10000
