@@ -17,8 +17,6 @@ The latest version of the ontology can always be found at:
 
 https://purl.brain-bican.org/ontology/pbao/pbao.owl
 
-(note this will not show up until the request has been approved by obofoundry.org)
-
 ### Editors' version
 
 Editors of this ontology should use the edit version, [src/ontology/pbao-edit.owl](src/ontology/pbao-edit.owl)
