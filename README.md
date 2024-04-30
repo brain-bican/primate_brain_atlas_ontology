@@ -15,7 +15,7 @@ More information can be found at https://brain-bican.github.io/primate_brain_atl
 
 The latest version of the ontology can always be found at:
 
-https://purl.brain-bican.org/ontology/pbao.owl
+https://purl.brain-bican.org/ontology/pbao/pbao.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
